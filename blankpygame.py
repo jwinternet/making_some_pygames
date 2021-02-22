@@ -1,11 +1,9 @@
-"""
-blankpygame.py
-"""
+"""The Blank PyGame"""
+
+import sys
 
 import pygame
-import sys
 from pygame.locals import *
-
 
 pygame.init()
 DISPLAYSURF = pygame.display.set_mode((800, 600))
